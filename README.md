@@ -6,9 +6,21 @@
 npm install -S afeiship/next-random-nickname --registry=https://registry.npm.taobao.org
 ```
 
+## apis:
+| api | param | description       |
+|-----|-------|-------------------|
+| get | -     | Random a nickname |
+
 ## usgae:
 ```js
 import NxRandomNickname from 'next-random-nickname';
+
+// generate an array:
+const results = [];
+for (let index = 0; index < 10; index++) {
+  results.push(NxRandomNickname.get());
+}
+console.log(results);
 
 // random:
 [ '豪气的木瓜',
