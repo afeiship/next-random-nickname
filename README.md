@@ -38,5 +38,5 @@ console.log(results);
   '飘逸的遥控器' ]
 ```
 
-## resouces:
+## resources:
 - https://github.com/laii7/random-name
