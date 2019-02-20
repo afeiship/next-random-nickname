@@ -14,7 +14,7 @@ npm install -S afeiship/next-random-nickname --registry=https://registry.npm.tao
 |-----|-------|-------------------|
 | get | -     | Random a nickname |
 
-## usgae:
+## usage:
 ```js
 import NxRandomNickname from 'next-random-nickname';
 
