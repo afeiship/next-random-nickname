@@ -1,5 +1,8 @@
 # next-random-nickname
-> Random nickname
+> Random nickname.
+
+## description:
+> 昵称生成，形容词+名词. 
 
 ## install:
 ```bash
