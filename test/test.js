@@ -7,6 +7,6 @@
     for (let index = 0; index < 10; index++) {
       results.push(NxRandomNickname.get());
     }
-    // console.log(results);
+    console.log(results);
   });
 })();
