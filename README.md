@@ -41,6 +41,9 @@ console.log(results);
   '飘逸的遥控器' ]
 ```
 
+## resources
+- https://github.com/laii7/random-name
+
 ## license
 Code released under [the MIT license](https://github.com/afeiship/next-random-nickname/blob/master/LICENSE.txt).
 
