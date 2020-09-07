@@ -1,7 +1,7 @@
 {
-  "name": "next-random-nickname",
+  "name": "@feizheng/next-random-nickname",
   "version": "1.0.0",
-  "description": "Random nickname",
+  "description": "Random nickname.",
   "homepage": "https://github.com/afeiship/next-random-nickname",
   "author": {
     "name": "afei",
@@ -9,27 +9,34 @@
   },
   "scripts": {
     "build": "gulp",
-    "test": "jest",
-    "version": "gulp bump"
+    "test": "jest"
   },
   "main": "dist/next-random-nickname.js",
   "license": "MIT",
   "devDependencies": {
-    "del": "^2.2.1",
-    "gulp": "^3.9.1",
-    "gulp-bump": "^2.7.0",
-    "gulp-concat": "^2.6.0",
-    "gulp-load-plugins": "^1.2.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-size": "^2.1.0",
-    "gulp-uglify": "^2.1.2",
-    "jest": "^23.6.0",
-    "yargs": "^4.7.1"
+    "@feizheng/gulp-pkg-header": "^1.0.4",
+    "@feizheng/next-js-core2": "^2.6.0",
+    "@feizheng/rake-git": "^1.2.1",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-debug": "^4.0.0",
+    "gulp-ignore": "^3.0.0",
+    "gulp-load-plugins": "^2.0.3",
+    "gulp-rename": "^2.0.0",
+    "gulp-size": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "jest": "^26.1.0",
+    "uglify-js": "3.10.0",
+    "uglify-save-license": "^0.4.1",
+    "yargs": "^15.4.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   },
   "dependencies": {
-    "next-const-adjective": "github:afeiship/next-const-adjective",
-    "next-const-noun": "github:afeiship/next-const-noun",
-    "next-js-core2": "github:afeiship/next-js-core2",
-    "next-random": "github:afeiship/next-random"
+    "@feizheng/next-const-adjective": "^1.0.0",
+    "@feizheng/next-const-noun": "^1.0.0",
+    "@feizheng/next-random": "^1.0.2"
   }
 }

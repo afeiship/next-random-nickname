@@ -1,28 +1,31 @@
 # next-random-nickname
 > Random nickname.
 
-## description:
-> 昵称生成，形容词+名词. 
+[![version][version-image]][version-url]
+[![license][license-image]][license-url]
+[![size][size-image]][size-url]
+[![download][download-image]][download-url]
 
-## install:
+## installation
 ```bash
-npm install -S afeiship/next-random-nickname --registry=https://registry.npm.taobao.org
+npm install -S @feizheng/next-random-nickname
 ```
 
-## apis:
-| api | param | description       |
-|-----|-------|-------------------|
-| get | -     | Random a nickname |
+## apis
+| api | params | description   |
+|-----|--------|---------------|
+| get | -      | desc balabala |
 
-## usage:
+## usage
 ```js
-import NxRandomNickname from 'next-random-nickname';
+import NxRandomNickname from '@feizheng/next-random-nickname';
 
 // generate an array:
 const results = [];
 for (let index = 0; index < 10; index++) {
   results.push(NxRandomNickname.get());
 }
+
 console.log(results);
 
 // random:
@@ -38,5 +41,17 @@ console.log(results);
   '飘逸的遥控器' ]
 ```
 
-## resources:
-- https://github.com/laii7/random-name
+## license
+Code released under [the MIT license](https://github.com/afeiship/next-random-nickname/blob/master/LICENSE.txt).
+
+[version-image]: https://img.shields.io/npm/v/@feizheng/next-random-nickname
+[version-url]: https://npmjs.org/package/@feizheng/next-random-nickname
+
+[license-image]: https://img.shields.io/npm/l/@feizheng/next-random-nickname
+[license-url]: https://github.com/afeiship/next-random-nickname/blob/master/LICENSE.txt
+
+[size-image]: https://img.shields.io/bundlephobia/minzip/@feizheng/next-random-nickname
+[size-url]: https://github.com/afeiship/next-random-nickname/blob/master/dist/next-random-nickname.min.js
+
+[download-image]: https://img.shields.io/npm/dm/@feizheng/next-random-nickname
+[download-url]: https://www.npmjs.com/package/@feizheng/next-random-nickname
