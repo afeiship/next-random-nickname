@@ -3,7 +3,7 @@
  * description: Random nickname.
  * homepage: https://github.com/afeiship/next-random-nickname
  * version: 1.0.0
- * date: 2020-11-20 11:16:11
+ * date: 2020-11-20 11:17:15
  * license: MIT
  */
 

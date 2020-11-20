@@ -39,5 +39,10 @@
     "@jswork/next-const-adjective": "^1.0.0",
     "@jswork/next-const-noun": "^1.0.0",
     "@jswork/next-sample": "^1.0.0"
-  }
+  },
+  "keywords": [
+    "next",
+    "random",
+    "nickname"
+  ]
 }
