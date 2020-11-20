@@ -8,17 +8,17 @@
 
 ## installation
 ```bash
-npm install -S @feizheng/next-random-nickname
+npm install -S @jswork/next-random-nickname
 ```
 
 ## apis
-| api | params | description   |
-|-----|--------|---------------|
-| get | -      | desc balabala |
+| api | params | description            |
+| --- | ------ | ---------------------- |
+| get | -      | Get a random nickname. |
 
 ## usage
 ```js
-import NxRandomNickname from '@feizheng/next-random-nickname';
+import NxRandomNickname from '@jswork/next-random-nickname';
 
 // generate an array:
 const results = [];
@@ -41,20 +41,17 @@ console.log(results);
   '飘逸的遥控器' ]
 ```
 
-## resources
-- https://github.com/laii7/random-name
-
 ## license
 Code released under [the MIT license](https://github.com/afeiship/next-random-nickname/blob/master/LICENSE.txt).
 
-[version-image]: https://img.shields.io/npm/v/@feizheng/next-random-nickname
-[version-url]: https://npmjs.org/package/@feizheng/next-random-nickname
+[version-image]: https://img.shields.io/npm/v/@jswork/next-random-nickname
+[version-url]: https://npmjs.org/package/@jswork/next-random-nickname
 
-[license-image]: https://img.shields.io/npm/l/@feizheng/next-random-nickname
+[license-image]: https://img.shields.io/npm/l/@jswork/next-random-nickname
 [license-url]: https://github.com/afeiship/next-random-nickname/blob/master/LICENSE.txt
 
-[size-image]: https://img.shields.io/bundlephobia/minzip/@feizheng/next-random-nickname
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/next-random-nickname
 [size-url]: https://github.com/afeiship/next-random-nickname/blob/master/dist/next-random-nickname.min.js
 
-[download-image]: https://img.shields.io/npm/dm/@feizheng/next-random-nickname
-[download-url]: https://www.npmjs.com/package/@feizheng/next-random-nickname
+[download-image]: https://img.shields.io/npm/dm/@jswork/next-random-nickname
+[download-url]: https://www.npmjs.com/package/@jswork/next-random-nickname

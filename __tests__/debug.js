@@ -1,9 +1,8 @@
 (function () {
-  var nx = require('@feizheng/next-js-core2');
-  var NxRandomNickname = require('../src/next-random-nickname');
+  const NxRandomNickname = require('../src');
 
-  var results = [];
-  for (let index = 0; index < 200; index++) {
+  const results = [];
+  for (let index = 0; index < 10; index++) {
     results.push(NxRandomNickname.get());
   }
   console.log(JSON.stringify(results, null, 2));
